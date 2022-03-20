@@ -1,0 +1,312 @@
+* {
+  padding: 0%;
+  margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Arial;
+
+    background: #000000;
+    color: #ddd;
+    width: 100%;
+  height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #e7ad0e, #c27398, #218ca7, #151616);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+  
+
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 140px;
+    text-align:center;
+    background-size :1400px 806px;
+    overflow: hidden;
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+    
+  }
+
+    
+  
+ 
+
+  
+  .header h1 {
+    font-size: 80px;
+  }
+  .header p{
+    font-size: 30px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #fffefe;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    
+
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  
+
+ .row .leftcolumn #card h2{
+   text-align: center;
+   color:rgb(255, 255, 255);
+   margin-top: 30px;
+   font-size: 30px;
+   font-family: 'Cinzel', serif;
+    
+   
+ }
+ .row .leftcolumn #card h5{
+   text-align: center;
+   color: #ddd;
+   margin-top: 10px;
+   font-size: 20px;
+   font-family: 'Cinzel', serif;
+ }
+ 
+    
+
+ .row .leftcolumn .img2{
+  width: 400px;
+  image-orientation: 90deg;
+  justify-content: space-between;
+
+}
+
+.row .leftcolumn .img3{
+  width: 400px;
+  image-orientation: 90deg;
+  justify-content: space-between;
+}
+
+.row .leftcolumn .img4{
+  width: 400px;
+  image-orientation: 90deg;
+  justify-content: space-between;
+}
+p{
+  
+margin: 50px;
+font-size: 20px;
+}
+
+
+
+
+
+#card2 h2{
+  text-align: center;
+  color: rgb(253, 251, 251);
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
+    
+ 
+  
+}
+
+.images{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+
+}
+
+#images1{
+  text-align: center ;
+  
+}
+#images1:hover{
+  transition: 1s ease transform;
+  transform: scale(1.1);
+}
+
+   #images1{
+    transform: scale(1);;
+  }
+  
+
+#images2{
+  text-align: center;
+
+}
+#images2:hover{
+  transition: 1s ease transform;
+  transform: scale(1.1);
+}
+
+   #images2{
+    transform: scale(1);;
+  }
+  
+
+#images3{
+  text-align: center;
+  
+}
+#images3:hover{
+  transition: 1s ease transform;
+  transform: scale(1.1);
+}
+
+   #images3{
+    transform: scale(1);;
+  }
+
+.test{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  /*align-self:center;*/
+  
+}
+
+#plage1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+  font-family: 'Cinzel', serif;
+  
+}
+
+#plage2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+  flex-direction: row-reverse;
+  font-family: 'Cinzel', serif;
+  
+}
+
+#plage3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+  font-family: 'Cinzel', serif;
+  
+}
+
+#plage4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+  flex-direction: row-reverse;
+  font-family: 'Cinzel', serif;
+}
+
+#plage5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+  font-family: 'Cinzel', serif;
+  
+}
+
+#footer{
+  text-align: center;
+  margin-top: 10%;
+  margin-block: 10%;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Cinzel', serif;
+}
+
+.clickAnim{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(to top, red, yellow); 
+  position: absolute;
+  z-index: 9000;
+  transform:scale(0);
+  transform-origin: center;
+  animation: clickAnim 1s ease-in-out;
+
+}
+
+@keyframes clickAnim{
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(2);
+    opacity: 1;
+  }
+  0%{
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+.img5:hover{
+  transition: 1s ease transform;
+  transform: scale(1.3);
+}
+
+   .img5{
+    transform: scale(1);;
+  }
+
+ 
